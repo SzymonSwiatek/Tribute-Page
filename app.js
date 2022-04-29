@@ -189,8 +189,9 @@ class Slider {
         //toggle buttonPlayPause from another method
         const toggleButton = document.querySelector(".slider-pagination-button-PlayPause");
             if (toggleButton.innerHTML === "play_circle") {
-                toggleButton.innerHTML = "pause_circle";
                 toggleButton.innerText = "Pause";
+                toggleButton.innerHTML = "pause_circle";
+                
 
         }
 
